@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f8f8f8;
+}
+
+header {
+  padding: 20px 0 35px;
+  text-align: center;
+  background: #fff;
+}
+
+#logo-img {
+  height: 80px;
+}
+
+.info h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.info h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7e7e7e;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+}
+
+.main-image {
+  width: 100%;
+  height: 700px;
+}
+
+.project {
+  background: #fff;
+  width: 30%;
+  padding: 5px;
+  margin: 0 10px;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-caption {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title-main {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: #333;
+  margin: 50px 0;
+}
+
+.project p {
+  font-size: 16px;
+  color: #7e7e7e;
+  margin: 20px 0;
+}
+
+.project a {
+  font-size: 16px;
+  color: #7e7e7e;
+  display: inline-block;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 3px;
+  margin: 0 0 20px;
+  text-decoration: none;
+}
+
+footer {
+  background: #fff;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #7e7e7e;
+  padding: 20px 0;
+}
+
+/* Smart Phones */
+
+@media only screen and (min-width: 160px) and (max-width: 767px) {
+  .project {
+    width: 94%;
+    padding: 0;
+    margin: 10px;
+    display: inline-block;
+    float: none;
+  }
+  .main-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* iPads (landscape) */
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+  .project {
+    width: 94%;
+    padding: 0;
+    margin: 10px;
+    display: inline-block;
+    float: none;
+  }
+  .main-image {
+    width: 100%;
+    height: auto;
+  }
+}
