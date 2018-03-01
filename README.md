@@ -18,13 +18,11 @@ Open your Command Line then ,
 
 ` git clone https://github.com/meraaz/Udacity_Portfolio_Project.git `
 
-#### Steps to make it work
+#### Go to the project directory
 
-##### Go to the project directory
+#### Open the project folder
 
-##### Open the project folder
-
-##### Click on index.html file
+#### Click on index.html file
 
 It will open your default browser And enjoy with Your portfolio
 
