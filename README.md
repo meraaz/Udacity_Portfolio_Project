@@ -20,9 +20,7 @@ Open your Command Line then ,
 
 #### Go to the project directory
 
-#### Open the project folder
-
-#### Click on index.html file
+#### Open the index.html file
 
 It will open your default browser And enjoy with Your portfolio
 
