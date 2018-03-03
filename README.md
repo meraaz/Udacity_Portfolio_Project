@@ -8,7 +8,7 @@ Show your skills and projects you have worked on
 
 ## Prerequisites
 
-You just need a browser , Chrome , Firefox , Safari , Edge or any other browser ;)
+You just need a browser : Chrome , Firefox , Safari , Edge or any other browser ;)
 
 ## Install
 

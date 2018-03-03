@@ -1,56 +1,77 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Meraz Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600%7CRaleway:400,700" rel="stylesheet">
-  <style media="screen">
-  </style>
-</head>
-
-<body>
-  <header>
-    <!-- Logo Image -->
-    <img src="assets/imgs/MK_Logo.png" alt="MK Logo" id="logo-img">
-    <div class="info">
-      <!-- Name -->
-      <h1>Mervat Karam</h1>
-      <!-- Title -->
-      <h4>Full Stack Ninja</h4>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Meraz Portfolio</title>
+    <!-- Call bootstrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600%7CRaleway:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Website Header -->
+    <!-- Start of Header -->
+    <header>
+      <!-- Logo Image -->
+      <img src="assets/imgs/MK_Logo.png" alt="MK Logo" id="logo-img">
+      <!-- The info div -->
+      <div class="info">
+        <!-- Name -->
+        <h1>Mervat Karam</h1>
+        <!-- Title -->
+        <h4>Full Stack Ninja</h4>
+      </div>
+      <!-- The divided HR -->
+      <hr>
+    </header>
+    <!-- End of Header -->
+    <!-- Start of Container div -->
+    <div class="container">
+      <!-- The Main Image -->
+      <img src="assets/imgs/Talk_cheap.jpg" alt="Main Image" class="main-image img-responsive">
+      <h2 class="title-main">Featured Work</h2>
+      <!-- TODO: Add other projects -->
+      <!-- The Projects div -->
+      <div class="row">
+        <!-- Project 1 -->
+        <figure class="project col-md-4">
+          <!-- Project1 Image -->
+          <img src="assets/imgs/project_1.png" alt="Project1 Description" class="project-img">
+          <!-- Project1 Details -->
+          <figcaption class="project-caption">
+            <p>Project1 Description</p>
+            <a href="#">Project1 Link</a>
+          </figcaption>
+        </figure>
+        <!-- Project 2 -->
+        <figure class="project col-md-4">
+          <!-- Project2 Image -->
+          <img src="assets/imgs/project_2.png" alt="Project2 Description" class="project-img">
+          <!-- Project2 Details -->
+          <figcaption class="project-caption">
+            <p>Project2 Description</p>
+            <a href="#">Project2 Link</a>
+          </figcaption>
+        </figure>
+        <!-- Project 3 -->
+        <figure class="project col-md-4">
+          <!-- Project3 Image -->
+          <img src="assets/imgs/project_3.jpg" alt="Project3 Description" class="project-img">
+          <!-- Project3 Details -->
+          <figcaption class="project-caption">
+            <p>Project3 Description</p>
+            <a href="#">Project3 Link</a>
+          </figcaption>
+        </figure>
+      </div>
     </div>
-    <!-- decorated line -->
-  </header>
-  <!-- Main Image -->
-  <img src="assets/imgs/Talk_cheap.jpg" alt="Main Image" class="main-image">
-  <h2 class="title-main">Featured Work</h2>
-  <!-- TODO: Add other projects -->
-  <figure class="project">
-    <img src="assets/imgs/project_1.png" alt="Project1 Description" class="project-img">
-    <figcaption class="project-caption">
-      <p>Project1 Description</p>
-      <a href="#">Project1 Link</a>
-    </figcaption>
-  </figure>
-  <figure class="project">
-    <img src="assets/imgs/project_2.png" alt="Project2 Description" class="project-img">
-    <figcaption class="project-caption">
-      <p>Project2 Description</p>
-      <a href="#">Project2 Link</a>
-    </figcaption>
-  </figure>
-  <figure class="project">
-    <img src="assets/imgs/project_3.jpg" alt="Project3 Description" class="project-img">
-    <figcaption class="project-caption">
-      <p>Project3 Description</p>
-      <a href="#">Project3 Link</a>
-    </figcaption>
-  </figure>
-
-  <footer>
-    <p>All Rights Reseved Mervat Karm 2018</p>
-  </footer>
-</body>
-
+    <!-- End of Container div -->
+    <!-- Start of Footer -->
+    <footer>
+      <!-- Copyrights -->
+      <p>All Rights Reseved Mervat Karm 2018</p>
+    </footer>
+    <!-- End of Footer -->
+  </body>
 </html>
