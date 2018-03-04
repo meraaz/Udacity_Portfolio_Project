@@ -8,7 +8,7 @@ body {
 
 /* Start of Header Style */
 /* Header Style */
-header {
+.website-header {
   padding: 20px 0 5px;
   text-align: center;
   background: #fff;
@@ -31,7 +31,7 @@ header hr {
 }
 
 /* The info Name Style */
-.my-name {
+header h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -41,7 +41,7 @@ header hr {
 }
 
 /* The info Title Style */
-.my-title {
+header h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
