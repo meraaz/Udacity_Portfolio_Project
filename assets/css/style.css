@@ -6,6 +6,7 @@ body {
   background: #f8f8f8;
 }
 
+/* Start of Header Style */
 /* Header Style */
 header {
   padding: 20px 0 5px;
@@ -13,6 +14,7 @@ header {
   background: #fff;
 }
 
+/* Header line style */
 header hr {
   border: 2px solid #7d97ad;
   width: 70%;
@@ -23,12 +25,13 @@ header hr {
   height: 80px;
 }
 
+/*  */
 .info {
   margin-bottom: 5px;
 }
 
 /* The info Name Style */
-.info h1 {
+.my-name {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -38,8 +41,8 @@ header hr {
 }
 
 /* The info Title Style */
-.info h4 {
-  font-family: 'Montserrat', sans-serif;
+.my-title {
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #7e7e7e;
@@ -47,12 +50,23 @@ header hr {
   margin: 10px 0 0;
 }
 
+/* End of Header Style */
+
+/* Start of Content Style */
 /* The main image Style */
 .main-image {
   width: 100%;
   height: 700px;
 }
 
+/* Start of Projects Style */
+/* Main Title Style */
+.title-main {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  color: #333;
+  margin: 50px 0;
+}
 /* The Project Figure Style */
 .project {
   background: #fff;
@@ -71,15 +85,7 @@ header hr {
 /* The Project Caption Style */
 .project-caption {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-}
-
-/* Main Title Style */
-.title-main {
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  color: #333;
-  margin: 50px 0;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Project Caption Pragraph Style */
@@ -99,19 +105,24 @@ header hr {
   margin: 0 0 20px;
   text-decoration: none;
 }
+/* End of Projects Style */
+/* End of Content Style */
 
+/* Start Footer Style */
 /* Footer Style */
 footer {
   background: #fff;
   border-top: 1px solid #e7e7e7;
   margin-top: 50px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   color: #7e7e7e;
   padding: 20px 0;
 }
+/* End of Footer Style */
 
+/* CSS for Responsive */
 /* Smart Phones */
 @media only screen and (min-width: 160px) and (max-width: 767px) {
   .project {
